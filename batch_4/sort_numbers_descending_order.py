@@ -9,3 +9,5 @@
 # if the user input is invalid:
     #goes through the list to sort the numbers entered in descending order
     #print invalid input and the descending order of number entered and stop the loop
+
+numbers = []
