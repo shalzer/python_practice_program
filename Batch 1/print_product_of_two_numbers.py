@@ -4,3 +4,8 @@
 #ask user to input 2nd number
 #Compute the product of the two inputted numbers
 #Prints the product
+
+num1 = float(input("Please enter the 1st number: "))
+num2 = float(input("Please enter the 2nd number: "))
+
+print("The product of the 2 numbers is: ", num1 * num2)
