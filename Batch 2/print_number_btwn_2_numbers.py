@@ -4,4 +4,10 @@
 # ask for second number from user (num2)
 # identify the smaller and larger number
 # Loop from the smaller number + 1 to the larger number - 1
-#   Print each number in the range  
+#   Print each number in the range
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+for i in range(min(num1, num2) + 1, max(num1, num2)):
+    print(i)
