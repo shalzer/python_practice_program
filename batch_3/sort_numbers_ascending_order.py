@@ -15,3 +15,6 @@ while True:
         user_input = int(input("Enter a number: "))
         numbers.append(user_input)
         numbers.sort()
+    except ValueError:
+        print("invalid input. The ascending order of what you entered is: ", numbers)
+        break
