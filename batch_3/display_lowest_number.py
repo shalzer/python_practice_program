@@ -5,3 +5,5 @@
 
 # if the user input is invalid:
     #print invalid input and the lowest number entered and stop the loop
+
+numbers = []
