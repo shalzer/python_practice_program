@@ -25,3 +25,7 @@ while True:
         else:
             print("Unique")
             numbers.append(num)
+
+    except ValueError:
+        print("Invalid input. Program terminated.")
+        break
