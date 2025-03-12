@@ -6,3 +6,5 @@
 #    add it to the list (numbers)
 # create variable that checks the frequency of all the entered numbers
 # if the user input is invalid, the program will terminate and will print the most frequent number that appeared"
+
+numbers = []
