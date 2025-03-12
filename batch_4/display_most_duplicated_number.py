@@ -12,3 +12,5 @@ while True:
     try:
         num = int(input("Enter a number (or any non-numeric character to stop): "))
         numbers.append(num)
+        if numbers:
+            most_frequent = max(numbers, key=numbers.count)
