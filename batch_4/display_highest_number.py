@@ -9,3 +9,8 @@
     #print invalid input and the highest number entered and stop the loop
 
 numbers = []
+
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        numbers.append(num)
