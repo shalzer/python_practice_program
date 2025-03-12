@@ -18,3 +18,6 @@ while True:
         numbers.append(num)
         total = sum(numbers)
         average = total / len(numbers)
+    except ValueError:
+        print(f"Invalid input. The average of numbers is: {average:.2f}")
+        break
