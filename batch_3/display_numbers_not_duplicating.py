@@ -10,3 +10,9 @@
 #     add it to the 2nd list (unique_num)
 
 #prints out the number
+
+number = []
+
+for i in range(10):
+    num = int(input(f"Enter a number {i+1}: "))
+    number.append(num)
