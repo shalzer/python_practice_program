@@ -14,3 +14,6 @@ while True:
     try:
         num = int(input("Enter a number: "))
         numbers.append(num)
+    except ValueError:
+        print(f"Invalid input, the lowest number is: {max(numbers)}")
+        break
