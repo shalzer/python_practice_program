@@ -5,3 +5,6 @@
 #  check if num does not end in 0 or 5
 #    if true, print the number
 #  increase num by 1
+
+num = 0
+while num <= 100:
