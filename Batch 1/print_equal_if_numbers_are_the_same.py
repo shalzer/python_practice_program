@@ -6,3 +6,10 @@
 # Print "Equal" if true
 # Print "Number 1 and 2 are not equal" if false
 
+num1 = float(input("Please enter the 1st number: "))
+num2 = float(input("Please enter the 2nd number: "))
+
+if num1 == num2:
+    print("Equal")
+else:
+    print("Number 1 and 2 are not equal")
