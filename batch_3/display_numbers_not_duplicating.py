@@ -21,3 +21,5 @@ unique_num = []
 for num in number:
     if number.count(num) == 1:
         unique_num.append(num)
+
+print("Not repeated numbers: ", unique_num)
