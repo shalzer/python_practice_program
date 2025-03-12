@@ -13,3 +13,5 @@
 
 # if the input is not a valid integer (invalid input)
     # print an error message and terminate the program
+
+numbers = []
