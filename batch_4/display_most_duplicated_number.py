@@ -8,3 +8,7 @@
 # if the user input is invalid, the program will terminate and will print the most frequent number that appeared"
 
 numbers = []
+while True:
+    try:
+        num = int(input("Enter a number (or any non-numeric character to stop): "))
+        numbers.append(num)
