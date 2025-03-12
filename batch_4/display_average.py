@@ -12,3 +12,7 @@
     #print invalid input and the average of numbers (w/ 2 decimals only) and stops the loop.
 
 numbers = []
+while True:
+    try:
+        num = int(input(f"Enter a number: "))
+        numbers.append(num)
