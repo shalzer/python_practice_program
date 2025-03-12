@@ -10,3 +10,16 @@
 #     add it to the 2nd list (duplicate_num)
 
 #prints out the duplicate number
+
+number = []
+
+for i in range(10):
+    num = int(input(f"Enter a number {i+1}: "))
+    number.append(num)
+
+duplicate_num = []
+for num in number:
+    if number.count(num) > 1:
+        duplicate_num.append(num)
+
+print("Repeated numbers: ", duplicate_num)
