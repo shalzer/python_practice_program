@@ -7,3 +7,6 @@
 #   add number to diff variable
 #subtract diff from num1
 #print result
+
+diff = 0
+num1 = int(input("Enter number 1: "))
