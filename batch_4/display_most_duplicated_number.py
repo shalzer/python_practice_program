@@ -14,3 +14,6 @@ while True:
         numbers.append(num)
         if numbers:
             most_frequent = max(numbers, key=numbers.count)
+    except ValueError:
+        print(f"Invalid input. Most repeated number: {most_frequent}")
+        break
