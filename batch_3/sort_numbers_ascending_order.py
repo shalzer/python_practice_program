@@ -9,3 +9,9 @@
     #print invalid input and the ascending order of number entered and stop the loop
 
 numbers = []
+
+while True:
+    try:
+        user_input = int(input("Enter a number: "))
+        numbers.append(user_input)
+        numbers.sort()
