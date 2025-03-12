@@ -7,3 +7,5 @@
 
 # if the user input is invalid:
     #print invalid input and the ascending order of number entered and stop the loop
+
+numbers = []
