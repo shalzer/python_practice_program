@@ -7,3 +7,5 @@
 # if the user input is invalid:
     #the program goes through the list and check the highest number
     #print invalid input and the highest number entered and stop the loop
+
+numbers = []
