@@ -10,3 +10,5 @@
 
 # if the user input is invalid:
     #print invalid input and the average of numbers (w/ 2 decimals only) and stops the loop.
+
+numbers = []
