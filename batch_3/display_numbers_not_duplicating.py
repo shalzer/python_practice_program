@@ -16,3 +16,8 @@ number = []
 for i in range(10):
     num = int(input(f"Enter a number {i+1}: "))
     number.append(num)
+
+unique_num = []
+for num in number:
+    if number.count(num) == 1:
+        unique_num.append(num)
